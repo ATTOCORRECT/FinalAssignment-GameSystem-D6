@@ -14,8 +14,8 @@ public class DieManager : MonoBehaviour
     public GameObject Square;
     public GameObject Number;
 
-    int colorIndex;
-    int numberIndex;
+    public int colorIndex;
+    public int numberIndex;
 
     
 

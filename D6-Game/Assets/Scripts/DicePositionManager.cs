@@ -47,14 +47,14 @@ public class DicePositionManager : MonoBehaviour
         {
             MoveColumnDown(column);
         }
-        else if ((Dice[column + 10].GetComponent<DieManager>().colorIndex   == Dice[15].GetComponent<DieManager>().colorIndex) ||
-                 (Dice[column + 10].GetComponent<DieManager>().numberIndex  == (Dice[15].GetComponent<DieManager>().numberIndex + 1) % 6))
+        else if ((Dice[column + 10].GetComponent<DieManager>().colorIndex       == Dice[15].GetComponent<DieManager>().colorIndex) ||
+                 (Dice[column + 10].GetComponent<DieManager>().numberIndex % 6  == (Dice[15].GetComponent<DieManager>().numberIndex + 1) % 6))
         {
             MoveColumnDown(column);
         }
         else
         {
-
+            StartCoroutine(Dice[column + 10].GetComponent<DieManager>().ShakeDie());
         }
     }
 
@@ -64,6 +64,8 @@ public class DicePositionManager : MonoBehaviour
         Dice[15] = Dice[column + 10];
         Dice[column + 10] = Dice[column + 5];
         Dice[column + 5] = Dice[column];
-        Dice[column] = (Instantiate(Die, dicePositionLUT[column], Quaternion.identity));
+        Dice[column] = Instantiate(Die, dicePositionLUT[column], Quaternion.identity);
     }
+
+
 }

@@ -6,35 +6,32 @@ using TMPro;
 
 public class ScoreManager : MonoBehaviour
 {
-    public GameObject scoreText;
-    public GameObject streakText;
+    public GameObject ScoreText;
+    public GameObject StreakText;
+    public GameObject ProgressBar;
 
     int score = 0;
     int streak = 0;
-
-    void Start()
-    {
-        
-    }
- 
-    void Update()
-    {
-        
-    }
-
     public void IncreaseScore()
     {
+        //incrament streak
         score++;
         streak++;
 
-        scoreText.GetComponent<TextMeshProUGUI>().text = score.ToString();
-        streakText.GetComponent<TextMeshProUGUI>().text = streak.ToString();
+        //update score display
+        ScoreText.GetComponent<TextMeshProUGUI>().text = score.ToString();
+        StreakText.GetComponent<TextMeshProUGUI>().text = streak.ToString();
+
+        //progress bar position
+        ProgressBar.transform.position = new Vector2(((float)Mathf.Clamp(score, 0, 50) / 50 * 14) - 14, 3.25f);
     }
 
     public void ResetStreak()
     {
+        //reset streak
         streak = 0;
 
-        streakText.GetComponent<TextMeshProUGUI>().text = streak.ToString();
+        //update score display
+        StreakText.GetComponent<TextMeshProUGUI>().text = streak.ToString();
     }
 }

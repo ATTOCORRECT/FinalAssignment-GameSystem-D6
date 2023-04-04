@@ -5,7 +5,8 @@ using UnityEngine;
 public class DicePositionManager : MonoBehaviour
 {
     public GameObject Die;
-
+    public GameObject ScoreManagerObject;
+    ScoreManager scoreManagerScript;
     GameObject[] DicePositionEmpties;
     Vector2[] dicePositionLUT = new Vector2[16];
 
@@ -13,7 +14,8 @@ public class DicePositionManager : MonoBehaviour
 
     void Start()
     {
-        
+        scoreManagerScript = ScoreManagerObject.GetComponent<ScoreManager>();
+
         DicePositionEmpties = GameObject.FindGameObjectsWithTag("DicePosition");
         for (int i = 0; i < DicePositionEmpties.Length; i++)
         {
@@ -39,20 +41,30 @@ public class DicePositionManager : MonoBehaviour
     }
 
     public void SelectDie(int column) {
+        // destroy slot 15, reset streak
         if (column == 6) {
             Object.Destroy(Dice[15], 0);
             Dice[15] = null;
+
+            scoreManagerScript.ResetStreak();
         }
+        // fill slot 15 with new die, increase score
         else if (Dice[15] == null)
         {
             MoveColumnDown(column);
+
+            scoreManagerScript.IncreaseScore();
         }
+        // replace slot 15 with new die, increase score
         else if ((Dice[column + 10].GetComponent<DieManager>().colorIndex       == Dice[15].GetComponent<DieManager>().colorIndex) ||
                  (Dice[column + 10].GetComponent<DieManager>().numberIndex % 6  == (Dice[15].GetComponent<DieManager>().numberIndex + 1) % 6))
         {
             MoveColumnDown(column);
+
+            scoreManagerScript.IncreaseScore();
         }
-        else
+        // cant swap
+        else 
         {
             StartCoroutine(Dice[column + 10].GetComponent<DieManager>().ShakeDie());
         }

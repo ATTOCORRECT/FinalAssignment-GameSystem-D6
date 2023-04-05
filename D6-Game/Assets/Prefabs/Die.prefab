@@ -215,19 +215,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieColors:
-  - {r: 1, g: 0, b: 0.39857292, a: 1}
-  - {r: 0.59642434, g: 0.38652548, b: 0.8113208, a: 1}
-  - {r: 0.19223925, g: 0.900065, b: 0.9056604, a: 1}
-  - {r: 0.4188464, g: 0.7735849, b: 0.09852261, a: 1}
-  - {r: 1, g: 0.9118239, b: 0, a: 1}
-  - {r: 0.77254903, g: 0.0980392, b: 0.5968949, a: 1}
+  - {fileID: 2100000, guid: 3e1c250c074a53945b019e67946ff21d, type: 2}
+  - {fileID: 2100000, guid: 92d0133f54095fe46959de709b0d2de2, type: 2}
+  - {fileID: 2100000, guid: 54c3d49f504a8824199b1e4cedf8b926, type: 2}
+  - {fileID: 2100000, guid: 73549c9a3eb72364d967ee8aba268c7b, type: 2}
+  - {fileID: 2100000, guid: 1964fd382d404d54ca98c11ad01f9abf, type: 2}
+  - {fileID: 2100000, guid: 380b4b218c311254e97665f9490d574e, type: 2}
   numberColors:
-  - {r: 1, g: 0.8460924, b: 0.5518868, a: 1}
-  - {r: 0.3277346, g: 0.077830195, b: 0.5, a: 1}
-  - {r: 0.37486652, g: 0.53447974, b: 0.6792453, a: 1}
-  - {r: 0.31693262, g: 0.3679245, b: 0.06768423, a: 1}
-  - {r: 0.76408803, g: 0.8773585, b: 0.51731044, a: 1}
-  - {r: 0.9150943, g: 0.7985493, b: 0.8314859, a: 1}
+  - {fileID: 2100000, guid: 647b1fe68b2be5a43957c60ec71c384d, type: 2}
+  - {fileID: 2100000, guid: 3293c91853b53b849bf2857fe109e283, type: 2}
+  - {fileID: 2100000, guid: a9f5dd5951cba3a4995ec530ca6b6e5d, type: 2}
+  - {fileID: 2100000, guid: b6bec3d3b5f6af7468083deb95bd3647, type: 2}
+  - {fileID: 2100000, guid: 0367c4a33a1d1b6459738014b9f75160, type: 2}
+  - {fileID: 2100000, guid: e8e0a243f73fe444bb4c63bdd0b8f044, type: 2}
   UseArabic: 0
   numberSprites:
   - {fileID: 1441460048, guid: 3713aacd1b0eadd4d9519676e43e377c, type: 3}

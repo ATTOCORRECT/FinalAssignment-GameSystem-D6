@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class DieManager : MonoBehaviour
 {
-    public Color[] dieColors;
-    public Color[] numberColors;
+    public Material[] dieColors = new Material[6];
+    public Material[] numberColors = new Material[6];
 
     public bool UseArabic = false;
 
@@ -26,8 +26,8 @@ public class DieManager : MonoBehaviour
             numberIndex += 6;
         }
 
-        Square.GetComponent<SpriteRenderer>().color = dieColors[colorIndex];
-        Number.GetComponent<SpriteRenderer>().color = numberColors[colorIndex];
+        Square.GetComponent<SpriteRenderer>().color = dieColors[colorIndex].color;
+        Number.GetComponent<SpriteRenderer>().color = numberColors[colorIndex].color;
         Number.GetComponent<SpriteRenderer>().sprite = numberSprites[numberIndex];
     }
 

@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6749008186667983950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6749008186667983937}
+  - component: {fileID: 6749008186667983936}
+  m_Layer: 0
+  m_Name: Color Palette Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6749008186667983937
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6749008186667983950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6749008186667983936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6749008186667983950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 024a6a52611fa934ba4961aba2d27974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paletteIndex: 0
+  Palette0:
+  - {r: 0.20518868, g: 0.21920246, b: 0.2735849, a: 1}
+  - {r: 0.27100393, g: 0.45074236, b: 0.6603774, a: 1}
+  - {r: 0.5504183, g: 0.78315544, b: 0.8773585, a: 1}
+  - {r: 0.8501246, g: 0.8799922, b: 0.9056604, a: 1}
+  - {r: 0.8584906, g: 0.14983091, b: 0.7321657, a: 1}
+  - {r: 0.15098791, g: 0.2828023, b: 0.8207547, a: 1}
+  - {r: 0.1544589, g: 0.8396226, b: 0.7917499, a: 1}
+  - {r: 0.1481844, g: 0.8490566, b: 0.22434802, a: 1}
+  - {r: 0.8584906, g: 0.81734246, b: 0.14173192, a: 1}
+  - {r: 0.8207547, g: 0.127759, b: 0.16311343, a: 1}
+  - {r: 0.8867924, g: 0.6065326, b: 0.73124313, a: 1}
+  - {r: 0.7239202, g: 0.6287825, b: 0.8490566, a: 1}
+  - {r: 0.077830195, g: 0.18940489, b: 0.31132078, a: 1}
+  - {r: 0.16745561, g: 0.26415092, b: 0.051085785, a: 1}
+  - {r: 0.33962262, g: 0.10294585, b: 0.078497685, a: 1}
+  - {r: 0.8867924, g: 0.7774538, b: 0.73202205, a: 1}
+  Palette1:
+  - {r: 0.30980393, g: 0.40392157, b: 0.5058824, a: 1}
+  - {r: 0.6862745, g: 0.7490196, b: 0.8235294, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.17254902, g: 0.9098039, b: 0.95686275, a: 1}
+  - {r: 0.015686275, g: 0.5176471, b: 0.81960785, a: 1}
+  - {r: 0.19607843, g: 0.4509804, b: 0.27058825, a: 1}
+  - {r: 0.3882353, g: 0.7764706, b: 0.3019608, a: 1}
+  - {r: 1, g: 0.90588236, b: 0.38431373, a: 1}
+  - {r: 0.9843137, g: 0.57254905, b: 0.16862746, a: 1}
+  - {r: 0.8980392, g: 0.23137255, b: 0.26666668, a: 1}
+  - {r: 0.24705882, g: 0.15686275, b: 0.19607843, a: 1}
+  - {r: 0.09803922, g: 0.23921569, b: 0.24705882, a: 1}
+  - {r: 0.19607843, g: 0.4509804, b: 0.27058825, a: 1}
+  - {r: 0.72156864, g: 0.43529412, b: 0.3137255, a: 1}
+  - {r: 0.61960787, g: 0.15686275, b: 0.20784314, a: 1}
+  - {r: 0.45490196, g: 0.24705882, b: 0.22352941, a: 1}
+  Palette2:
+  - {r: 0.03137255, g: 0.03529412, b: 0.101960786, a: 1}
+  - {r: 0.41960785, g: 0.5254902, b: 0.7019608, a: 1}
+  - {r: 0.9490196, g: 0.9254902, b: 0.9019608, a: 1}
+  - {r: 0.03137255, g: 0.03529412, b: 0.101960786, a: 1}
+  - {r: 0.59607846, g: 0.8509804, b: 0.827451, a: 1}
+  - {r: 0.16078432, g: 0.5019608, b: 0.6509804, a: 1}
+  - {r: 0.5921569, g: 0.7490196, b: 0.1882353, a: 1}
+  - {r: 1, g: 0.6, b: 0.34901962, a: 1}
+  - {r: 1, g: 0.6509804, b: 0.6509804, a: 1}
+  - {r: 0.6, g: 0.27058825, b: 0.49019608, a: 1}
+  - {r: 0.16862746, g: 0.7372549, b: 0.8509804, a: 1}
+  - {r: 0.12941177, g: 0.6509804, b: 0.3647059, a: 1}
+  - {r: 0.9411765, g: 0.8039216, b: 0.1882353, a: 1}
+  - {r: 0.7490196, g: 0.3764706, b: 0.3764706, a: 1}
+  - {r: 1, g: 0.2, b: 0.4, a: 1}
+  - {r: 0.2509804, g: 0.2509804, b: 0.5019608, a: 1}
+  Palette3:
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  Palette4:
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  Palette5:
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  colorMaterials:
+  - {fileID: 2100000, guid: 3a8832330e1ef1446857e26699fcfa40, type: 2}
+  - {fileID: 2100000, guid: e040c1683d5d3724489f3df54c4b24fe, type: 2}
+  - {fileID: 2100000, guid: 39f420c1f49c15f43a9a9f54be4ccc6b, type: 2}
+  - {fileID: 2100000, guid: b042393c7841cf54eaa9b68e5fcbb001, type: 2}
+  - {fileID: 2100000, guid: 3e1c250c074a53945b019e67946ff21d, type: 2}
+  - {fileID: 2100000, guid: 92d0133f54095fe46959de709b0d2de2, type: 2}
+  - {fileID: 2100000, guid: 54c3d49f504a8824199b1e4cedf8b926, type: 2}
+  - {fileID: 2100000, guid: 73549c9a3eb72364d967ee8aba268c7b, type: 2}
+  - {fileID: 2100000, guid: 1964fd382d404d54ca98c11ad01f9abf, type: 2}
+  - {fileID: 2100000, guid: 380b4b218c311254e97665f9490d574e, type: 2}
+  - {fileID: 2100000, guid: 647b1fe68b2be5a43957c60ec71c384d, type: 2}
+  - {fileID: 2100000, guid: 3293c91853b53b849bf2857fe109e283, type: 2}
+  - {fileID: 2100000, guid: a9f5dd5951cba3a4995ec530ca6b6e5d, type: 2}
+  - {fileID: 2100000, guid: b6bec3d3b5f6af7468083deb95bd3647, type: 2}
+  - {fileID: 2100000, guid: 0367c4a33a1d1b6459738014b9f75160, type: 2}
+  - {fileID: 2100000, guid: e8e0a243f73fe444bb4c63bdd0b8f044, type: 2}

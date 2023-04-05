@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 024a6a52611fa934ba4961aba2d27974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paletteIndex: 3
+  paletteIndex: 2
   Palette0:
   - {r: 0.20518868, g: 0.21920246, b: 0.2735849, a: 1}
   - {r: 0.27100393, g: 0.45074236, b: 0.6603774, a: 1}

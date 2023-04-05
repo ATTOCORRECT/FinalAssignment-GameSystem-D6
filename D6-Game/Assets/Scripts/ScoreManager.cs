@@ -19,8 +19,8 @@ public class ScoreManager : MonoBehaviour
         streak++;
 
         //update score display
-        ScoreText.GetComponent<TextMeshProUGUI>().text = score.ToString();
-        StreakText.GetComponent<TextMeshProUGUI>().text = streak.ToString();
+        ScoreText.GetComponent<TextMeshPro>().text = score.ToString();
+        StreakText.GetComponent<TextMeshPro>().text = streak.ToString();
 
         //progress bar position
         ProgressBar.transform.position = new Vector2(((float)Mathf.Clamp(score, 0, 50) / 50 * 14) - 14, 3.25f);
@@ -32,6 +32,6 @@ public class ScoreManager : MonoBehaviour
         streak = 0;
 
         //update score display
-        StreakText.GetComponent<TextMeshProUGUI>().text = streak.ToString();
+        StreakText.GetComponent<TextMeshPro>().text = streak.ToString();
     }
 }

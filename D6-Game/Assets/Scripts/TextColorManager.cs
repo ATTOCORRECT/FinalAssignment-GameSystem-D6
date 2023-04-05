@@ -8,6 +8,6 @@ public class TextColorManager : MonoBehaviour
     public Material color;
     void Start()
     {
-        gameObject.GetComponent<TextMeshProUGUI>().color = color.color;
+        gameObject.GetComponent<TextMeshPro>().color = color.color;
     }
 }

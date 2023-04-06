@@ -2389,6 +2389,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 6749008186667983936, guid: 9f2d76b152f9db649a98b4319fdaf72c, type: 3}
+      propertyPath: paletteIndex
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749008186667983936, guid: 9f2d76b152f9db649a98b4319fdaf72c, type: 3}
       propertyPath: Palette0.Array.data[0].a
       value: 1
       objectReference: {fileID: 0}

@@ -228,7 +228,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: b6bec3d3b5f6af7468083deb95bd3647, type: 2}
   - {fileID: 2100000, guid: 0367c4a33a1d1b6459738014b9f75160, type: 2}
   - {fileID: 2100000, guid: e8e0a243f73fe444bb4c63bdd0b8f044, type: 2}
-  UseArabic: 0
+  UseArabic: 1
   numberSprites:
   - {fileID: 1441460048, guid: 3713aacd1b0eadd4d9519676e43e377c, type: 3}
   - {fileID: -286308974, guid: 3713aacd1b0eadd4d9519676e43e377c, type: 3}

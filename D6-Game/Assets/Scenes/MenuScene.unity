@@ -1317,7 +1317,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 1917382599, guid: 8ffa9844577572843a5a52c9e31626ec, type: 3}
+  m_Sprite: {fileID: 1368979684, guid: 3713aacd1b0eadd4d9519676e43e377c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1543,6 +1543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b85ae18870857d749ba3e57829e9b175, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  diePrefab: {fileID: 1938608693727026147, guid: 5d21518ac0dc8104994108b6120d3c8f, type: 3}
   DisplayButtonText: {fileID: 1780566636}
   Colour: {fileID: 6749008186667983950, guid: 9f2d76b152f9db649a98b4319fdaf72c, type: 3}
   NumbersArabic_5: {fileID: 1917382599, guid: 8ffa9844577572843a5a52c9e31626ec, type: 3}

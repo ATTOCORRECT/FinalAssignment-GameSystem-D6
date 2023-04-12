@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    public GameObject diePrefab;
     public GameObject DisplayButtonText;
     public Sprite NumbersArabic_5;
     public Sprite Numbers_5;
@@ -27,12 +28,14 @@ public class MainMenu : MonoBehaviour
 
     void ChangeSprite()
     {
-        if (DisplayButtonText.GetComponent<SpriteRenderer>().sprite == NumbersArabic_5)
+        diePrefab.GetComponent<DieManager>().UseArabic = !diePrefab.GetComponent<DieManager>().UseArabic;
+
+        if (diePrefab.GetComponent<DieManager>().UseArabic)
+        {
+            DisplayButtonText.GetComponent<SpriteRenderer>().sprite = NumbersArabic_5;
+        } else
         {
             DisplayButtonText.GetComponent<SpriteRenderer>().sprite = Numbers_5;
         }
-        else
-            DisplayButtonText.GetComponent<SpriteRenderer>().sprite = NumbersArabic_5;
-
     }
 }

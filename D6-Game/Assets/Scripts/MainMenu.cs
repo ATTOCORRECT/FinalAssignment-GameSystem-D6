@@ -5,10 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    public GameObject DisplayButtonText;
+    public Sprite NumbersArabic_5;
+    public Sprite Numbers_5;
+
     public void PlayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    
+
     }
     public void ShowStats()
     {
@@ -17,18 +21,18 @@ public class MainMenu : MonoBehaviour
     }
     public void ChangeColor()
     {
-        
-
-    }
-
-    public void Display()
-    {
 
 
     }
-    public void Tutorial()
+
+    void ChangeSprite()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+        if (DisplayButtonText.GetComponent<SpriteRenderer>().sprite == NumbersArabic_5)
+        {
+            DisplayButtonText.GetComponent<SpriteRenderer>().sprite = Numbers_5;
+        }
+        else
+            DisplayButtonText.GetComponent<SpriteRenderer>().sprite = NumbersArabic_5;
 
     }
 }

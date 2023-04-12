@@ -10,11 +10,12 @@ public class MainMenu : MonoBehaviour
     public GameObject Colour;
     public Sprite NumbersArabic_5;
     public Sprite Numbers_5;
-    int colorValue = 0;
+    int colorValue;
+
 
     private void Start()
     {
-        Colour.GetComponent<ColorPaletteController>().paletteIndex = colorValue;
+        colorValue = Colour.GetComponent<ColorPaletteController>().paletteIndex;
     }
 
     public void PlayGame()
@@ -31,7 +32,7 @@ public class MainMenu : MonoBehaviour
     {
         colorValue = (colorValue + 1) % 6;
         Colour.GetComponent<ColorPaletteController>().paletteIndex = colorValue;
-        
+        Scene scene = SceneManager.GetActiveScene(); SceneManager.LoadScene(scene.name);
 
     }
     

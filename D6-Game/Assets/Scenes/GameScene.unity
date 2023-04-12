@@ -453,7 +453,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1667,7 +1667,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1801,7 +1801,7 @@ Transform:
   - {fileID: 663467301}
   - {fileID: 1143629612}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1432504011
 GameObject:
@@ -2381,84 +2381,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Die: {fileID: 1938608693727026147, guid: 5d21518ac0dc8104994108b6120d3c8f, type: 3}
   ScoreManagerObject: {fileID: 656769882}
---- !u!1001 &6749008186728271913
+--- !u!1001 &2072391601
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6749008186667983936, guid: 9f2d76b152f9db649a98b4319fdaf72c, type: 3}
-      propertyPath: paletteIndex
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6749008186667983936, guid: 9f2d76b152f9db649a98b4319fdaf72c, type: 3}
-      propertyPath: Palette0.Array.data[0].a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6749008186667983936, guid: 9f2d76b152f9db649a98b4319fdaf72c, type: 3}
-      propertyPath: Palette0.Array.data[1].a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6749008186667983936, guid: 9f2d76b152f9db649a98b4319fdaf72c, type: 3}
-      propertyPath: Palette0.Array.data[2].a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6749008186667983936, guid: 9f2d76b152f9db649a98b4319fdaf72c, type: 3}
-      propertyPath: Palette0.Array.data[3].a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6749008186667983936, guid: 9f2d76b152f9db649a98b4319fdaf72c, type: 3}
-      propertyPath: Palette0.Array.data[4].a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6749008186667983936, guid: 9f2d76b152f9db649a98b4319fdaf72c, type: 3}
-      propertyPath: Palette0.Array.data[5].a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6749008186667983936, guid: 9f2d76b152f9db649a98b4319fdaf72c, type: 3}
-      propertyPath: Palette0.Array.data[6].a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6749008186667983936, guid: 9f2d76b152f9db649a98b4319fdaf72c, type: 3}
-      propertyPath: Palette0.Array.data[7].a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6749008186667983936, guid: 9f2d76b152f9db649a98b4319fdaf72c, type: 3}
-      propertyPath: Palette0.Array.data[8].a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6749008186667983936, guid: 9f2d76b152f9db649a98b4319fdaf72c, type: 3}
-      propertyPath: Palette0.Array.data[9].a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6749008186667983936, guid: 9f2d76b152f9db649a98b4319fdaf72c, type: 3}
-      propertyPath: Palette0.Array.data[10].a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6749008186667983936, guid: 9f2d76b152f9db649a98b4319fdaf72c, type: 3}
-      propertyPath: Palette0.Array.data[11].a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6749008186667983936, guid: 9f2d76b152f9db649a98b4319fdaf72c, type: 3}
-      propertyPath: Palette0.Array.data[12].a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6749008186667983936, guid: 9f2d76b152f9db649a98b4319fdaf72c, type: 3}
-      propertyPath: Palette0.Array.data[13].a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6749008186667983936, guid: 9f2d76b152f9db649a98b4319fdaf72c, type: 3}
-      propertyPath: Palette0.Array.data[14].a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6749008186667983936, guid: 9f2d76b152f9db649a98b4319fdaf72c, type: 3}
-      propertyPath: Palette0.Array.data[15].a
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6749008186667983937, guid: 9f2d76b152f9db649a98b4319fdaf72c, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6749008186667983937, guid: 9f2d76b152f9db649a98b4319fdaf72c, type: 3}
       propertyPath: m_LocalPosition.x

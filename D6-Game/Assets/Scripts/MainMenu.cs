@@ -6,8 +6,15 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public GameObject DisplayButtonText;
+    public GameObject Colour;
     public Sprite NumbersArabic_5;
     public Sprite Numbers_5;
+    int colorValue = 0;
+
+    private void Start()
+    {
+        Colour.GetComponent<ColorPaletteController>().paletteIndex = colorValue;
+    }
 
     public void PlayGame()
     {
@@ -21,9 +28,12 @@ public class MainMenu : MonoBehaviour
     }
     public void ChangeColor()
     {
-
+        colorValue = (colorValue + 1) % 6;
+        Colour.GetComponent<ColorPaletteController>().paletteIndex = colorValue;
+        
 
     }
+    
 
     void ChangeSprite()
     {
@@ -36,3 +46,4 @@ public class MainMenu : MonoBehaviour
 
     }
 }
+

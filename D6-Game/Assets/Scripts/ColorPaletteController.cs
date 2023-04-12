@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ColorPaletteController : MonoBehaviour
 {
-    public int paletteIndex;
+    public int paletteIndex = 0;
     Color[,] palettes = new Color[6,16];
     public Color[] Palette0 = new Color[16];
     public Color[] Palette1 = new Color[16];

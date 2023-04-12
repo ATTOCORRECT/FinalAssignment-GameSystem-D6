@@ -1604,6 +1604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b85ae18870857d749ba3e57829e9b175, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DisplayButtonText: {fileID: 1780566636}
   NumbersArabic_5: {fileID: 1917382599, guid: 8ffa9844577572843a5a52c9e31626ec, type: 3}
   Numbers_5: {fileID: 1368979684, guid: 3713aacd1b0eadd4d9519676e43e377c, type: 3}
 --- !u!20 &1948362160 stripped

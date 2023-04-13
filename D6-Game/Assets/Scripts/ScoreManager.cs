@@ -9,12 +9,14 @@ public class ScoreManager : MonoBehaviour
     public GameObject ScoreText;
     public GameObject StreakText;
     public GameObject ProgressBar;
+    public GameObject LivesCounter;
 
     int score = 0;
     int streak = 0;
+    int lives = 7;
     public void IncreaseScore()
     {
-        //incrament streak
+        //increment score
         score++;
         streak++;
 
@@ -33,5 +35,19 @@ public class ScoreManager : MonoBehaviour
 
         //update score display
         StreakText.GetComponent<TextMeshPro>().text = streak.ToString();
+
+        //life counter position
+        lives--;
+        LivesCounter.transform.position = new Vector2(-1.625f, ((float)Mathf.Clamp(lives, 0, 7) * 0.375f) -  1.125f);
+
+        if (lives <= 0)
+        {
+            GameOver();
+        }
+    }
+
+    void GameOver()
+    {
+        print("GameOver");
     }
 }

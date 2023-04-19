@@ -32,8 +32,6 @@ public class MainMenu : MonoBehaviour
     {
         colorValue = (colorValue + 1) % 6;
         Colour.GetComponent<ColorPaletteController>().paletteIndex = colorValue;
-        Scene scene = SceneManager.GetActiveScene(); SceneManager.LoadScene(scene.name);
-
     }
     
 

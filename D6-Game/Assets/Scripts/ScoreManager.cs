@@ -50,6 +50,6 @@ public class ScoreManager : MonoBehaviour
     void GameOver()
     {
         print("GameOver");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }

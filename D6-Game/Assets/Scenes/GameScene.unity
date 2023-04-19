@@ -2635,6 +2635,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Die: {fileID: 1938608693727026147, guid: 5d21518ac0dc8104994108b6120d3c8f, type: 3}
   ScoreManagerObject: {fileID: 656769882}
+  DicePositionEmpties:
+  - {fileID: 1023530993}
+  - {fileID: 1432504011}
+  - {fileID: 590335542}
+  - {fileID: 744285028}
+  - {fileID: 294592646}
+  - {fileID: 1614991151}
+  - {fileID: 1318599821}
+  - {fileID: 328589164}
+  - {fileID: 1212624766}
+  - {fileID: 826533615}
+  - {fileID: 886907298}
+  - {fileID: 713961722}
+  - {fileID: 313358875}
+  - {fileID: 1489746444}
+  - {fileID: 8636864}
+  - {fileID: 1069607783}
 --- !u!1001 &2072391601
 PrefabInstance:
   m_ObjectHideFlags: 0

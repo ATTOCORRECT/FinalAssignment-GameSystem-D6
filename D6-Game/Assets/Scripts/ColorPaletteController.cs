@@ -31,7 +31,7 @@ public class ColorPaletteController : MonoBehaviour
         UpdateColorMaterials();
     }
 
-    void UpdateColorMaterials()
+    public void UpdateColorMaterials()
     {
         for (int i = 0; i < 16; i++)
         {
@@ -42,6 +42,10 @@ public class ColorPaletteController : MonoBehaviour
     public Color GetColor(int index)
     {
         return palettes[paletteIndex, index];
+    }
+    public void CycleIndex()
+    {
+        paletteIndex = (paletteIndex + 1) % 6;
     }
 
 

@@ -7,7 +7,7 @@ public class DicePositionManager : MonoBehaviour
     public GameObject Die;
     public GameObject ScoreManagerObject;
     ScoreManager scoreManagerScript;
-    GameObject[] DicePositionEmpties;
+    public GameObject[] DicePositionEmpties;
     Vector2[] dicePositionLUT = new Vector2[16];
 
     List<GameObject> Dice = new List<GameObject>(16);
@@ -16,7 +16,6 @@ public class DicePositionManager : MonoBehaviour
     {
         scoreManagerScript = ScoreManagerObject.GetComponent<ScoreManager>();
 
-        DicePositionEmpties = GameObject.FindGameObjectsWithTag("DicePosition");
         for (int i = 0; i < DicePositionEmpties.Length; i++)
         {
             dicePositionLUT[i] = DicePositionEmpties[i].transform.position;
@@ -72,6 +71,7 @@ public class DicePositionManager : MonoBehaviour
 
     void MoveColumnDown(int column)
     {
+        Debug.Log(column);
         Object.Destroy(Dice[15], 0);
         Dice[15] = Dice[column + 10];
         Dice[column + 10] = Dice[column + 5];

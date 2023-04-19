@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraColorManager : MonoBehaviour
 {
     public Material color;
-    void Start()
+    void Update()
     {
         gameObject.GetComponent<Camera>().backgroundColor = color.color;
     }
